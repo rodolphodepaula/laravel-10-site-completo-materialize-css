@@ -18,6 +18,10 @@
     <body>
       {{-- navbar --}}
       @include('partials.navbar')
+
+      {{-- slide --}}
+      @include('partials.banner-slide')
+
       {{-- conteúdo principal --}}
       @yield('content')
 

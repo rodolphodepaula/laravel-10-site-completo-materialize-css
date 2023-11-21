@@ -4,6 +4,7 @@ import './bootstrap';
 $(document).ready(function () {
   $('.modal').modal();
   $('.sidenav').sidenav();
+  $('.slider').slider();
 })
 
 import Alpine from 'alpinejs';

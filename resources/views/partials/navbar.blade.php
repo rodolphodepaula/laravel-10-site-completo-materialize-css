@@ -3,7 +3,7 @@
     {{-- menu hamburger --}}
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-    <a href="{{ route('home') }}" class="brand-logo light">Appcoder</a>
+    <a href="{{ route('home') }}" class="brand-logo light">Lorem</a>
     {{-- menu para desktop --}}
     <ul class="right hide-on-med-and-down">
       <li><a href="{{ route('home') }}">Home</a></li>
@@ -16,11 +16,11 @@
     <ul id="slide-out" class="sidenav">
       <li><div class="user-view">
         <div class="background">
-          <img src="{{ asset('images/sidenav-image.jpg') }}" alt="[imagem]" title="Appcoder">
+          <img src="{{ asset('images/sidenav-image.jpg') }}" alt="[imagem]" title="Lorem">
         </div>
         {{-- <a href="#user"><img class="circle" src="images/yuna.jpg"></a> --}}
-        <a href="#name"><span class="white-text name">Appcoder</span></a>
-        <a href="#email"><span class="white-text email">contato@appcoder.com.br</span></a>
+        <a href="#name"><span class="white-text name">Lorem</span></a>
+        <a href="#email"><span class="white-text email">contato@Lorem.com.br</span></a>
       </div></li>
       {{-- <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li> --}}
       <li><a href="#!">Menu</a></li>
