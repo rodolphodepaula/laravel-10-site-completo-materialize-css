@@ -7,7 +7,9 @@
     <p class="flow-text">Lorem, ipsum dolor sit amet</p>
   </div>
 
-  <div class="divider"></div>
+  <div class="cols s12 divider"></div>
+
+  <p>&nbsp;</p>
 
   {{-- card 1 --}}
   <div class="col s12 m6 l4">
@@ -55,6 +57,37 @@
         <a href="#" class="blue-text">saiba mais</a>
       </div>
     </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<div class="row container">
+  <div class="col s12">
+    <div class="divider"></div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<div class="row container">
+  <section class="col s12">
+    <h1 class="flow-text light">Lorem, ipsum dolor sit amet</h1>
+    <p class="flow-text light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias nisi eligendi reprehenderit, 
+      ullam quas itaque dolor dolores mollitia amet officiis reiciendis doloribus quam fuga voluptatibus
+       atque inventore. Cumque aliquid quam odit temporibus qui voluptate assumenda, dolores ad esse alias
+       maiores earum! Eligendi incidunt amet unde voluptates atque. Tempora, provident?
+    <p>
+    <p class="flow-text ">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nobis repellendus cupiditate,
+      quisquam ut voluptatum consequuntur in obcaecati. Eos sunt magnam voluptatibus? Deleniti
+      beatae nobis enim veritatis doloremque suscipit modi!
+    </p>
+    <p>
+      <a href="#!" class="waves-effects waves-light btn btn-small blue waves">saiba mais</a>
+      <a href="#!" class="waves-effects waves-light btn btn-small purple waves">cadastra-se</a>
+    </p>
+  </section>
+</div>
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="{{ asset('images/paralax.jpg') }}" alt="[imagem]" title="Lorem" class="responsive-img">
   </div>
 </div>
 
