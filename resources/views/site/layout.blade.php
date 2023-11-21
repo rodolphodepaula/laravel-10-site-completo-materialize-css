@@ -7,10 +7,19 @@
         <title>@yield('title')</title>
         {{-- css e javascript --}}
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        {{-- css Materialize--}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     </head>
     <body>
       {{-- conteúdo principal --}}
       @yield('content')
+
+      {{-- JQUERY --}}
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      {{-- Javascript Materialize --}}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     </body>
 </html>
