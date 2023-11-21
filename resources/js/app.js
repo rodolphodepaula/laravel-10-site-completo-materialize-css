@@ -8,6 +8,7 @@ $(document).ready(function () {
   $('.slider').slider();
   $('.materialboxed').materialbox();
   $('.parallax').parallax();
+  $('#textarea1').textarea();
 
   //Configurações JQuery Mask
   //$("#cpf").mask("000.000.000-00");
