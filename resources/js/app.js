@@ -6,6 +6,7 @@ $(document).ready(function () {
   $('.modal').modal();
   $('.sidenav').sidenav();
   $('.slider').slider();
+  $('.materialboxed').materialbox();
   
   //Configurações JQuery Mask
   //$("#cpf").mask("000.000.000-00");
