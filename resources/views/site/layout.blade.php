@@ -8,6 +8,9 @@
         {{-- ícones google --}}
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+        {{-- icones fontawesome --}}
+        <script src="https://kit.fontawesome.com/7ff2c0f262.js" crossorigin="anonymous"></script>
+
         {{-- css e javascript --}}
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
