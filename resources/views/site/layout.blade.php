@@ -13,6 +13,8 @@
 
     </head>
     <body>
+      {{-- navbar --}}
+      @include('partials.navbar')
       {{-- conteúdo principal --}}
       @yield('content')
 
