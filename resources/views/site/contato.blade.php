@@ -28,7 +28,7 @@
 </div>
 <div class="row container">
   <div class="col s12">
-    <form action="" method="post">
+    <form action="{{ route('novocontato') }}" method="post">
       @csrf
       <div class="row">
         {{-- campo nome --}}
@@ -46,8 +46,8 @@
         {{-- campo mensagem --}}
         <div class="input-field col s12">
           <i class="fa-solid fa-pen prefix"></i>
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Textarea</label>
+          <textarea id="message" name="message" class="materialize-textarea"></textarea>
+          <label for="message">Textarea</label>
         </div>
         <div class="col s12 input-field">
           <button type="submit" class="bn btn-small blue"><i class="fa-solid fa-paper-plane left"></i>Enviar</button>

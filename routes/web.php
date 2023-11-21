@@ -20,3 +20,4 @@ Route::get('/galeria', [NavigationController::class, 'galeria'])->name('galeria'
 Route::get('/contato', [NavigationController::class, 'contato'])->name('contato');
 
 Route::post('/', [SendMailController::class, 'lead'])->name('lead');
+Route::post('/contato', [SendMailController::class, 'contato'])->name('novocontato');
