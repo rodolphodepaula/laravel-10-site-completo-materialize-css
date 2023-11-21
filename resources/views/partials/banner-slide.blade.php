@@ -24,7 +24,7 @@
 <div class="modal" id="modal-lead">
   <div class="modal-content">
     <h3 class="flow-text">Preencha todos os campos</h3>
-    <form action="" method="post">
+    <form action="{{ route('lead') }}" method="post">
       @csrf
       <div class="row">
         {{-- campo nome --}}

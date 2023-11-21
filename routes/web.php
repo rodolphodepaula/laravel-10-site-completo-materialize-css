@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\NavigationController;
+use App\Http\Controllers\SendMailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,5 @@ Route::get('/', [NavigationController::class, 'home'])->name('home');
 Route::get('/servicos', [NavigationController::class, 'servicos'])->name('servicos');
 Route::get('/galeria', [NavigationController::class, 'galeria'])->name('galeria');
 Route::get('/contato', [NavigationController::class, 'contato'])->name('contato');
+
+Route::post('/', [SendMailController::class, 'lead'])->name('lead');
