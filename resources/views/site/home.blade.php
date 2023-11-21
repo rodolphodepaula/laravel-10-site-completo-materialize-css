@@ -94,15 +94,6 @@
 <div class="row container">
   <div class="col s12 m6 l4 center-align">
     <img src="{{ asset('images/teams/team-1.jpg') }}" alt="[imagem]" title="Lorem" class="responsive-img circle">
-    <p class="flow-text">Ray</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, maiores.</p>
-    <p>
-      <a href="#!"><i class="small fa-brands fa-facebook"></i></a>
-      <a href="#!"><i class="small fa-brands fa-instagram"></i></a>
-    </p>
-  </div>
-  <div class="col s12 m6 l4 center-align">
-    <img src="{{ asset('images/teams/team-2.jpg') }}" alt="[imagem]" title="Lorem" class="responsive-img circle">
     <p class="flow-text">Bia</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, maiores.</p>
     <p>
@@ -111,8 +102,17 @@
     </p>
   </div>
   <div class="col s12 m6 l4 center-align">
+    <img src="{{ asset('images/teams/team-2.jpg') }}" alt="[imagem]" title="Lorem" class="responsive-img circle">
+    <p class="flow-text">Arnaldo</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, maiores.</p>
+    <p>
+      <a href="#!"><i class="small fa-brands fa-facebook"></i></a>
+      <a href="#!"><i class="small fa-brands fa-instagram"></i></a>
+    </p>
+  </div>
+  <div class="col s12 m6 l4 center-align">
     <img src="{{ asset('images/teams/team-3.jpg') }}" alt="[imagem]" title="Lorem" class="responsive-img circle">
-    <p class="flow-text">Jeneff</p>
+    <p class="flow-text">Pablo</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, maiores.</p>
     <p>
       <a href="#!"><i class="small fa-brands fa-facebook"></i></a>
