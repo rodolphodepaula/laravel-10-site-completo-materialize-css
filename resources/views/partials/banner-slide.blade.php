@@ -38,7 +38,7 @@
         <div class="col s12 m6 input-field">
           <i class="material-icons prefix">phone_iphone</i>
           <input type="tel" name="tel" id="tel" required>
-          <label for="tel">Digite o seu telefone</label>
+          <label for="tel">Digite o seu celular</label>
         </div>
       </div>
 
