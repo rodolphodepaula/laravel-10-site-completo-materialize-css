@@ -23,6 +23,38 @@
 
 <div class="modal" id="modal-lead">
   <div class="modal-content">
-    <h3>Janela Modal</h3>
+    <h3 class="flow-text">Preencha todos os campos</h3>
+    <form action="" method="post">
+      @csrf
+      <div class="row">
+        {{-- campo nome --}}
+        <div class="col s12 m6 input-field">
+          <i class="material-icons prefix">person</i>
+          <input type="text" name="name" id="name" required>
+          <label for="name">Digite o seu nome</label>
+        </div>
+
+        {{-- campo telefone --}}
+        <div class="col s12 m6 input-field">
+          <i class="material-icons prefix">phone_iphone</i>
+          <input type="tel" name="tel" id="tel" required>
+          <label for="tel">Digite o seu telefone</label>
+        </div>
+      </div>
+
+      {{-- campo email --}}
+        <div class="col s12 input-field">
+          <i class="material-icons prefix">email</i>
+          <input type="email" name="email" id="email" required>
+          <label for="email">Digite o seu e-mail</label>
+        </div>
+
+        {{-- Botões de ação --}}
+        <div class="col s12 input-field">
+          <input type="submit" value="enviar" class="btn btn-small blue">
+          <input type="reset" value="limpar" class="btn btn-small red">
+        </div>
+      </div>
+    </form>
   </div>
 </div>
