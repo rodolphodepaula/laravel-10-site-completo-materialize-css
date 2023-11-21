@@ -3,6 +3,7 @@ import './bootstrap';
 //JQUERY
 $(document).ready(function () {
   $('.modal').modal();
+  $('.sidenav').sidenav();
 })
 
 import Alpine from 'alpinejs';
